@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ListPreference
+        android:title="@string/sort_setting"
+        android:key="@string/pref_sort_key"
+        android:defaultValue="@string/pref_most_popular_value"
+        android:entryValues="@array/sort_setting_values"
+        android:entries="@array/sort_setting_options" />
+
+    <EditTextPreference
+        android:title="Page Number"
+        android:key="@string/pref_page_number_key"
+        android:defaultValue="@string/pref_page_number_default"
+        android:inputType="number"
+        android:singleLine="true"/>
+
+</PreferenceScreen>

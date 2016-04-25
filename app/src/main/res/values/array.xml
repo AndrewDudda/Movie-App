@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="sort_setting_options">
+        <item>@string/most_popular</item>
+        <item>@string/highest_rated</item>
+        <item>@string/favorite_key</item>
+    </string-array>
+
+    <string-array name="sort_setting_values">
+        <item>@string/pref_most_popular_value</item>
+        <item>@string/pref_highest_rated_value</item>
+        <item>@string/pref_favorite_value</item>
+    </string-array>
+
+
+
+</resources>

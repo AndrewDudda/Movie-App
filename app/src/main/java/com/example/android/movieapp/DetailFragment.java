@@ -110,12 +110,12 @@ public class DetailFragment extends Fragment {
             checkBox.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    check = databaseController.isExist(movie.getId());
                     int id = movie.getId();
                     if (check)
                         databaseController.deleteMovieById(id);
                     else
                         databaseController.insert(movie);
+                    check = !check;
                 }
             });
 

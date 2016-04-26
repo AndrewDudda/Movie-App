@@ -274,7 +274,8 @@ public class MovieFragment extends Fragment {
                                 getString(R.string.pref_sort_key),
                                 getString(R.string.pref_most_popular_value)
                         );
-                final String API_KEY = "#put your API_KEY";
+                final String API_KEY = "a2c43ff043a570c696a61d8d37d7075f";
+                //final String API_KEY = "#put your API_KEY";
 
                 Uri builtUri = Uri.parse(MOVIE_BASE_URL).buildUpon()
                         .appendPath(SORTING_PARAM)
